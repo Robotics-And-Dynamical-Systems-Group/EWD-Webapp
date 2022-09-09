@@ -6,3 +6,5 @@ Requirements
 * 2 - React
 * 3 - Mapbox
 * 4 - AWS Amplify
+* 5 - Firebase
+* 6 - Activity and location recognition
