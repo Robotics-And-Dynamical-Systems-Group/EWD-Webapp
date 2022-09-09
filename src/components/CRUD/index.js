@@ -64,11 +64,13 @@ constructor(){
                                 {this.state.mydata.map((row,index) => 
                                             <td>
                                                 <th><h4>{row.key}</h4></th>
-                                                <tr>EKG : {row.data.EKG}</tr>
+                                                <tr>Heartrate : {row.data.BPM}</tr>
                                                 <tr>SPO2 : {row.data.Spo2}</tr>
                                                 <tr>Temp : {row.data.Temprature}</tr>
                                                 <tr>Lat : {row.data.Latitude}</tr>
                                                 <tr>Lon : {row.data.Longitude}</tr>
+                                                <tr>Activity : {row.data.Activity}</tr>
+                                                <tr>SubActivity : {row.data.subActivity}</tr>
                                             </td>
                                 )}
                             </Popup>)}
@@ -80,11 +82,13 @@ constructor(){
                                         <button>
                                             <td>
                                                 <tr>Name : {row.key}</tr>
-                                                <tr>EKG : {row.data.EKG}</tr>
+                                                <tr>Heartrate : {row.data.BPM}</tr>
                                                 <tr>SPO2 : {row.data.Spo2}</tr>
                                                 <tr>Temp : {row.data.Temprature}</tr>
                                                 <tr>Lat : {row.data.Latitude}</tr>
                                                 <tr>Lon : {row.data.Longitude}</tr>
+                                                <tr>Activity : {row.data.Longitude}</tr>
+                                                <tr>SubActivity : {row.data.subActivity}</tr>
                                             </td>
                                         </button>
                                 )}
